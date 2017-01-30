@@ -1,0 +1,22 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class pracadomowa3001 : MonoBehaviour {
+
+    public GameObject kula, kulaObiekt;
+    
+    public Vector3 pozycjaStartowa = new Vector3();
+
+	// Use this for initialization
+	void Start () {
+
+        kulaObiekt = (GameObject)Instantiate(kula, pozycjaStartowa, Quaternion.identity);
+
+    }
+	
+	// Update is called once per frame
+	void Update () {
+		
+	}
+}
